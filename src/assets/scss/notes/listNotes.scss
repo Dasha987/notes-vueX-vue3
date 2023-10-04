@@ -1,0 +1,35 @@
+.notes-list {
+  padding: 40px 0;
+}
+.note-item {
+  cursor: default;
+  width: 100%;
+  padding: 18px 20px;
+  margin-bottom: 20px;
+  border-radius: 14px;
+  background-color: #ffffff;
+  transition: all 0.25s cubic-bezier(0.02, 0.01, 0.47, 1);
+  box-shadow: 0 30px 30px rgba(0, 0, 0, 0.02);
+  &:hover {
+    box-shadow: 0 30px 30px rgba(0, 0, 0, 0.04);
+    transform: translate(0, -6px);
+    transition-delay: 0s !important;
+  }
+}
+.note-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.note-btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.note-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
