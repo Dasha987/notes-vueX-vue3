@@ -32,7 +32,9 @@ export const store = createStore({
     },
     mutations: {
         initialiseNodes(state, localNotes) {
-            state.notes = localNotes
+            if (localNotes) {
+                state.notes = localNotes
+            }
         },
         setNotes(state, notes) {
             state.notes = notes

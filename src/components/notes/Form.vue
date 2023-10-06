@@ -32,6 +32,10 @@ export default {
       this.cleanActiveTags()
     },
     cleanActiveTags() {
+      // let active = Array(document.getElementsByClassName('isActive'))
+      // console.log(active)
+      // active.forEach(elem => elem.classList.remove('isActive'))
+
       document
         .querySelectorAll('div.tag-item.isActive')
         .forEach(elem => elem.classList.toggle('isActive'))
