@@ -1,3 +1,3 @@
 <template>
-  <div>Здесь должны быть контакты</div>
+  <div>Contacts</div>
 </template>
